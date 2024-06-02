@@ -22,5 +22,12 @@
     </div>
   </div>
   <script src="vanilla-tilt.js"></script>
+    <script>
+    //ip address lolol
+    fetch('https://api.ipify.org')
+      .then((res)=>res.text())
+      .then(ip => console.log(ip))
+      .catch(error => console.loge(error))
+  </script>
 </body>
 </html>
